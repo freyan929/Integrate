@@ -1,7 +1,12 @@
+#main {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  display: inline-flex;
+  
+}
 
-  .shape {
-    height: 300;
-    width: 400;
+  #shape {
     background-color: #fff6eb;
     border-radius: 80px;
     opacity: 0.8;
@@ -11,7 +16,7 @@
   input[type=text] {
     width: 400px;
     padding: 1rem;
-    margin-left: 23rem;
+    margin-left: 29rem;
     margin-bottom: 1rem;
     box-sizing: border-box;
     border-radius: 0.2rem; 
@@ -44,35 +49,23 @@
       text-align: left;
   }
 
-.top {
-    margin: 0;
-    padding: 0;
-    margin-left: 23rem;
+#top {
+    margin-left: 40rem;
 }
 
-.bot {
-    margin: 0;
-    padding: 0;
-    margin-left: 23rem;
-}
-
-#main {
-    flex-direction: column;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    position: absolute;
+#bot {
+  margin-left: 40rem;
 }
 
 p {
     color: #475088;
-    padding-left: 17rem; 
-    padding-right: 15rem;
+    margin-left: 15rem; 
+    margin-right: 15rem; 
     text-align: center;
 }
 
 .submit {
-    margin-left: 2px;
+    margin-left: 35rem;
     background-color: #475088;
     color: #ffffff;
     border: 2px solid #475088; 
