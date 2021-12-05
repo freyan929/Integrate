@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Billing</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="assets/css/billing.css">
+  </head>
+  <body>
+    <main id="hideOnClick">
+      <h1>Now we need your Billing Details...</h1>
+      <p>Don't worry, you won't be charged unless you choose to make a donation</p>
+      <p>*All fields are required</p>
+
+      <form>
+        <div class="blue">
+          <label for="fname">Cardholder First Name:</label>
+          <input type="text" id="fname" name="fname"><br>
+        </div>
+        <div class="blue">
+          <label for="lname">Cardholder Last Name:</label>
+          <input type="text" id="lname" name="lname">
+        </div>
+
+        <div class="purple">
+          <label for="address">Billing Address:</label>
+          <input type="text" id="address" name="address"><br>
+        </div>
+        <div class="purple">
+          <label for="state">State:</label>
+          <input type="text" id="state" name="state">
+        </div>
+        <div class="purple">
+          <label for="city">City/Town:</label>
+          <input type="text" id="city" name="city"><br>
+        </div>
+        <div class="purple">
+          <label for="zip-code">Zip Code:</label>
+          <input type="text" id="zip-code" name="zip-code">
+        </div>
+      </form>
+      <button id="submit-button" class="btn">SUBMIT</button>
+      <p id="error"></p>
+    </main>
+    <footer id="target">
+      
+    </footer>
+    <script src="assets/js/billing.js" async defer></script>
+  </body>
+</html>
